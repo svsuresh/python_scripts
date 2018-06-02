@@ -1,0 +1,1 @@
+This script allows user to search by ID and regions (as supported by [pyfaidx](https://github.com/mdshw5/pyfaidx)). For example we have used a fasta file (test.fa) and a file (with IDs and regions of interest). Fasta file has amino acid sequences in fasta format.
