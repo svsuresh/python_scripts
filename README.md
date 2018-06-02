@@ -26,3 +26,4 @@ Output for Example input would be:
   + p.D3e&nbsp;&nbsp;&nbsp;&nbsp;	p.Asp3Glu
 
 2. psqldf_multiple_df_with_dots_join.ipynb. This script is an example in joining multiple data frames in pandas. Joining data frames with period(.) in names could be tricky in SQL join. This example shows how to do that. This script joins 3 data frames with . in column names. 
+3. extract_motifs - Folder has python code to extract motifs (from-to) from fasta file based on full name of the sequence and regions of interest. At this point script doesn't support partial name search.
