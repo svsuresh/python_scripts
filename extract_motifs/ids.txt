@@ -1,0 +1,2 @@
+sp|P17672.2|E75BA_DROMERecName:Full=Ecdysone-inducedprotein75B,isoformA;Short=E75-B;AltName:Full=Nuclearreceptorsubfamily1groupDmember3,isoformA	415	484
+sp|P45447.4|E78C_DROMERecName:Full=Ecdysone-inducedprotein78C;Short=DR-78;AltName:Full=Nuclearreceptorsubfamily1groupEmember1	363	443
