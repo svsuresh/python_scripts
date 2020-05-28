@@ -1,0 +1,65 @@
+LOCUS       MK733608              136382 bp    DNA     linear   VRL 13-MAY-2020
+DEFINITION  Human gammaherpesvirus 8 strain UNC_KICS010, complete genome.
+ACCESSION   MK733608
+VERSION     MK733608.1.
+FEATURES             Location/Qualifiers
+     source          1..136382
+                     /organism="Human gammaherpesvirus 8"
+                     /mol_type="genomic DNA"
+                     /strain="UNC_KICS010"
+     gene            1082..17050
+                     /gene="ORF4"
+                     /note="HHV8GK18_gp02"
+     polyA_site      1113..1113
+                     /gene="K1"
+     CDS             1142..2794
+                     /gene="ORF4"
+                     /note="complement control protein; membrane protein;
+                     contains four SCR domains"
+                     /codon_start=1
+                     /product="KCP"
+                     /protein_id="QFU18707.1"
+                     /translation="MAFLRQTLWILWTFTMVIGQDNEKCSQKTLIGYRLKMSRDGDIA
+                     VGETVELRCRSGYTTYARNITATCLQGGTWSEPTATCNKKSCPNPGEIQNGKVIFHGG
+                     QDALKYGANISYVCNEGYFLVGREYVRYCMIGASGQMAWSSSPPFCEKEKCHRPKIEN
+                     GDFKPDKDYYEYNDAVHFECNEGYTLVGPHSIACAVNNTWTSNMPTCELAGCKFPSVT"
+ORIGIN
+        1 TACTAATTTT CAAAGGCGGG GTTCTGCCAG GCATAGTCTT TTTTTCTGGC GGCCCTTGTG
+       61 TATACCTGTC TTTCAGACCT TGTTGGACAT CCTGTACAAT CAAGATGTTC CTGTATGTTG
+      121 TCTGCAGTCT GGCGGTTTGC TTTCGAGGAC TATTAAGCCT TTCTCTGTTA TCGTCTCCAA
+      181 CTTTGTGCCC TGGAGTGATT TCAACGCCTT ACAATTTGAC CTGTCCGTCT AATACATCCT
+      241 TGCCAACATC CTGGTATTGC AACGATACTC GGCTTTTACG AGTGACGCAG GGAACATTGA
+//
+LOCUS       MK733606              136317 bp    DNA     linear   VRL 13-MAY-2020
+DEFINITION  Human gammaherpesvirus 8 strain UNC_KICS009, complete genome.
+ACCESSION   MK733606
+VERSION     MK733606.1
+FEATURES             Location/Qualifiers
+     source          1..136317
+                     /organism="Human gammaherpesvirus 8"
+                     /mol_type="genomic DNA"
+                     /strain="UNC_KICS009"
+                     /gene="ORF4"
+                     /note="HHV8GK18_gp02"
+     polyA_site      1113..1113
+                     /gene="K1"
+     CDS             1142..2794
+                     /gene="ORF4"
+                     /note="complement control protein; membrane protein;
+                     contains four SCR domains"
+                     /codon_start=1
+                     /product="KCP"
+                     /protein_id="QFU18535.1"
+                     /translation="MAFLRQTLWILWTFTMVIGQDNEKCSQKTLIGYRLKMSRDGDIA
+                     VGETVELRCRSGYTTYARNITATCLQGGTWSEPTATCNKKSCPNPGEIQNGKVIFHGG
+                     QDALKYGANISYVCNEGYFLVGREYVRYCMIGASGQMAWSSSPPFCEKEKCHRPKIEN
+                     GDFKPDKDYYEYNDAVHFECNEGYTLVGPHSIACAVNNTWTSNMPTCELAGCKFPSVT
+                     HGYPIQGFSLTYKHKQSVTFACNDGFVLRGSPTITCNVTEWDPPLPKCVLEDIDDPNN"
+ORIGIN
+        1 TACTAATTTT CAAAGGCGGG GTTCTGCCAG GCATAGTCTT TTTTTCTGGC GGCCCTTGTG
+       61 TATACCTGTC TTTCAGACCT TGTTGGACAT CCTGTACAAT CAAGATGTTC CTGTATGTTG
+      121 TCTGCAGTCT GGCGGTTTGC TTTCGAGGAC TATTAAGCCT TTCTCTGTTA TCGTCTCCAA
+      181 CTTTGTGCCC TGGAGTGATT TCAACGCCTT ACAATTTGAC CTGTCTGTCT AATGCATCCT
+      241 TGCCAATATC CTGGTATTGC AACAATACTC GGCTTTTGCG ACTGACGAAG AACACACTCC
+      301 TTGCTGTCGC CATTGCCTGC AATTTTACTT GTGTGGAACA ATCTGGGCAT CGACAGAGC
+//
