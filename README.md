@@ -29,3 +29,4 @@ Output for Example input would be:
 3. extract_motifs - Folder has python code to extract motifs (from-to) from fasta file based on full name of the sequence and regions of interest. At this point script doesn't support partial name search.
 4. bioservices_kegg_python.ipynb - This script uses bioservices python library to download KEGG pathway IDs and names given gene symbols.
 5. ncbi_id_converter_py.ipynb - This script uses biopython libraries to convert PMIDs to PMCIDs.
+6. gbtofasta folder contains python script for extracting nucleotide and protein sequence from the gb (genebank file). From multientry genbank file, it extracts nucleotide and protein sequence. Please change the script as you need.
