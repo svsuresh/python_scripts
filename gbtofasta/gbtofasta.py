@@ -1,24 +1,24 @@
 # import os
 from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord
-# from Bio.Seq import Seq
+from Bio.Seq import Seq
 
 
-_Sequences = []
+_NTSequences = []
+_AASequences = []
 
 # For writing nucleotide sequences
 for rec in SeqIO.parse("test.gb", "genbank"):
-    #    print(rec.seq)
-    #    print(rec.features[2])
-    #    print(rec.features[2].location)
     id = "{}:{}{}".format(rec.id, rec.features[2].location, rec.description)
     sequence = SeqRecord(rec.seq, id=id, description="")
-    _Sequences.append(sequence)
+    _NTSequences.append(sequence)
+    for feature in rec.features:
+        if feature.type == "CDS":
+            aaseq = Seq(*feature.qualifiers["translation"])
+            aaid = "{}:{} {}".format(rec.id, feature.location, rec.description)
+            aasequence = SeqRecord(aaseq, id=aaid, description="")
+            _AASequences.append(aasequence)
 
 
-# For writing protein sequence with custom header
-#        if feature.type == "CDS":
-#            seq = Seq(*feature.qualifiers["translation"])
-#            id = "{}:{} {}".format(rec.id, feature.location, rec.description)
-
-SeqIO.write(_Sequences, "test.fa", 'fasta')
+SeqIO.write(_NTSequences, "testNT.fa", 'fasta')
+SeqIO.write(_AASequences, "testAA.fa", 'fasta')
