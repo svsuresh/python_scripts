@@ -16,4 +16,4 @@ This would print the output to the screen. Count function also print the data in
 ```
 python fasta_ops.py file1.fa count | awk -v RS=">" -v OFS="\t" 'NR>1{print $1,$2}'
 ```
-This would print sequence headers in first column and count in second column.
+This would print sequence headers in first column and count in second column. Example fasta file is provided with the code.
