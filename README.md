@@ -30,3 +30,4 @@ Output for Example input would be:
 4. bioservices_kegg_python.ipynb - This script uses bioservices python library to download KEGG pathway IDs and names given gene symbols.
 5. ncbi_id_converter_py.ipynb - This script uses biopython libraries to convert PMIDs to PMCIDs.
 6. gbtofasta folder contains python script for extracting nucleotide and protein sequence from the gb (genebank file). From multientry genbank file, it extracts nucleotide and protein sequence. Please change the script as you need.
+7. count_a_first_position.py takes 3 arguements: list of sequences, base to be searched for, position at which based to be searched for. This script looks for a base (user provided single base, argument: base=""), at given position in each sequence in the list of the sequence. It outputs base, if it is present in each sequence or not (1 present and 0 absent) and total number of sequences in which user furnished base is present at user furnished position.
