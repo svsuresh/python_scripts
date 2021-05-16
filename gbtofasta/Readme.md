@@ -1,1 +1,1 @@
-
+This folder contains two scripts of the same function except that one function filters by gene name, takes user inputs (gbk file and output file name). `gbtofasta.py` extracts nucleotide and aminoacid (CDS) sequences where as `gbk2seq.py` extracts only CDS sequences, but filters on user input (eg used here **pol**). `gbk2seq.py` takes user input for input file name and output file name. If output file name is not given, input file name would be used with .fasta as extension. New file will be created in the same folder.
